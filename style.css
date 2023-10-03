@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 7px;
+}
+body{
+    font-family: 'AR One Sans', sans-serif;
+    color:white;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #333;
+
+}
+a{
+    text-decoration: none;
+}
+p{
+    padding: 1.6rem 0;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+header{
+    height: 46rem;
+    
+
+}
+header .bg-image{
+    background-image: url(images/01.jpeg);
+    position:absolute;
+    background-size:cover;
+    background-position:center;
+    height: 46rem;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+    
+}
+header h1{
+    padding: 12rem;
+    padding-bottom:0;
+}
+
+.btn{
+    font-size: 5px;
+    display:inline-block;
+    background-color: #333;
+    color:white;
+    border: 1px solid #666;
+    padding: 1.2rem 2.4rem;
+    margin: .8rem 0;
+    transition: all 0.8s;
+
+
+}
+.btn:hover{
+    background-color: whitesmoke;
+    color: #333;
+
+}
+
+#sectionA{
+    background-color: #eaeaea;
+    color: #333;
+    padding:3.2rem;
+
+}
+
+#sectionB{
+    padding: 2rem;
+}
+#sectionB ul{
+    list-style: none;
+}
+
+#sectionB li{
+    background-color: white;
+    color: #333;
+    margin-bottom: 1.5rem;
+
+}
+.col-content{
+    padding: 1.5rem;
+}
+
+#sectionC{
+    background-color: #eaeaea;
+    color: #333;
+    padding: 1.2rem;
+
+}
+#sectionD .box{
+    padding: 5rem;
+
+}
+
+#sectionD .box:first-child{
+    background-color: green;
+
+}
+
+footer{
+    padding: 4rem;
+    background-color: black;
+}
+
+footer a {
+    color: green;
+}
+
+@media screen and (min-width:800px) {
+
+    html{
+        font-size: 9px;
+    }
+    
+}
+
+@media screen and (min-width:1200px) {
+
+    html{
+        font-size: 12px;
+    }
+
+    #sectionB li{
+        width: 28%;
+        display: inline-block;
+        margin: 1%;
+    }
+
+    .box{
+        width: 50%;
+        float: left;
+    }
+    
+}
+
+clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
